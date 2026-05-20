@@ -26,7 +26,7 @@ public class Garbage {
 		//nullifiing the object so that it will be collected by garbage
 		e1=null;
 		//System.gc();
-		//reassigning
+		//reassigning the object to other object
 		e3=e2;
 		
 		System.gc();//calling garbage collector 

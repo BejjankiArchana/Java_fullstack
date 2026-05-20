@@ -10,6 +10,7 @@ public class Stringhandling {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("enter string to check:");
 		String s=sc.next();
+		//vowels
 List<Character>vowels=Arrays.asList('a','e','i','o','u','A','E','I','O','U');
 			int vowel=0;
 			int conso=0;
