@@ -18,7 +18,7 @@ public class Armstrong {
 
 	}
 
-	private static boolean isarmstrong(int n) {
+	public static boolean isarmstrong(int n) {
 		boolean flag=false;
 		int count=(Integer.toString(n)).length();
 		int rem=0;
