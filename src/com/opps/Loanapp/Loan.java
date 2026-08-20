@@ -2,7 +2,7 @@ package com.opps.Loanapp;
 
 import java.util.Scanner;
 
-public class Loan {
+public class Loan implements LoanInterface {
 	static Scanner sc=new Scanner(System.in);
 	public String getcustomerName() {
 		System.out.println("enter your name :");
@@ -57,17 +57,17 @@ public class Loan {
 			return roi;
 		}
 	}
-		boolean isvalidPhone() {
+		public boolean isvalidPhone() {
 			System.out.println("enter your phone number :");
 			String phone=sc.next();
 			return phone.matches("^[6-9][0-9]{9}");
 		}
-		boolean isvalidAadhar() {
+		public boolean isvalidAadhar() {
 			System.out.println("enter your aadhar number :");
 			String aadhar=sc.next();
 			return aadhar.matches("^[2-9][0-9]{11}");
 		}
-		boolean isvalidPan() {
+		public boolean isvalidPan() {
 			System.out.println("enter your Pan number :");
 			String pan=sc.next();
 			return pan.matches("^[A-Z]{5}[0-9]{4}[A-Z]{1}");

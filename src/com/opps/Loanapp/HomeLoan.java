@@ -40,7 +40,7 @@ package com.opps.Loanapp;
 			String s1 = new String();
 			System.out.println(s1);
 
-			HomeLoan pl = new HomeLoan();
+			LoanInterface pl = new HomeLoan();
 
 			boolean isValidPhone = pl.isvalidPhone();
 			boolean isAadharValid = pl.isvalidAadhar();

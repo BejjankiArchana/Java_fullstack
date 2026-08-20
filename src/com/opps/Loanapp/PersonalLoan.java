@@ -1,6 +1,5 @@
 package com.opps.Loanapp;
 
-import java.util.Scanner;
 
 public class PersonalLoan extends Loan{
 	
@@ -8,7 +7,7 @@ public class PersonalLoan extends Loan{
 	public static void main(String[] args) {
 		
 		System.out.println("welcome to vcube banking !!");
-		PersonalLoan p=new PersonalLoan();
+		LoanInterface p=new PersonalLoan();
 		if(p.isvalidAadhar()&& p.isvalidPhone()&& p.isvalidPan()) {
 		System.out.println("welcome :"+p.getcustomerName());
 		int age=p.getcustomerAge();

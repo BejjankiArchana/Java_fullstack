@@ -22,13 +22,13 @@ public class DuplicateCharacters {
 		
 		//map foeEachloop using lambda function
 		map.forEach((key,value)->{
-			//if(value>1) {
+			if(value>1) {
 				//arr.add(key);
 				//non repeating letters
 			//System.out.print(key);
 			
-			System.out.print(key+""+value);
-			
+			System.out.print(key+" "+value);
+			}
 			
 			//else {
 				//repeating letters
