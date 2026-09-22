@@ -1,0 +1,137 @@
+.navbar{
+     padding:20px;
+}
+
+.hero{
+    min-height:100vh;
+
+    background:linear-gradient(135deg,#4facfe,#8e2de2);
+
+    position:relative;
+     
+
+    overflow:hidden;
+
+    color:white;
+    padding-top:0px;
+}
+
+
+
+.announcement{
+    width:100%;
+    overflow:hidden;
+    margin-top: 0;
+   
+    color:#6a11cb;
+    font-size:18px;
+    font-weight:bold;
+    white-space:nowrap;
+    padding:0;
+    background:transparent
+}
+
+.announcement p{
+    display:inline-block;
+    white-space:nowrap;
+    animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee{
+    0%{
+        transform: translateX(100vw);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+.menu-btn{
+    float:right;
+    border:none;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background:rgba(255,255,255,.15);
+    color:white;
+    font-size:28px;
+}
+
+
+
+
+.hero-content{
+    margin-top:80px;
+}
+
+.profile-img{
+
+    width:220px;
+    height:220px;
+
+    border-radius:50%;
+
+    border:8px solid white;
+
+    object-fit:cover;
+}
+
+.hero h1{
+
+    font-size:70px;
+
+    line-height:75px;
+}
+
+.hero h3{
+
+    font-weight:300;
+}
+
+.social-icons a{
+
+    color:white;
+
+    font-size:35px;
+
+    margin:15px;
+
+    transition:.3s;
+}
+
+.social-icons a:hover{
+
+    color:#00ffcc;
+
+    text-decoration:none;
+}
+
+.hire-btn{
+
+    position:absolute;
+
+    bottom:40px;
+
+    right:40px;
+
+    background:#25D366;
+
+    color:white;
+
+    border:none;
+
+    padding:18px 40px;
+
+    border-radius:50px;
+
+    font-size:22px;
+
+    font-weight:bold;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.3);
+}
+footer{
+    background:#1d2333;
+    color:white;
+    padding:20px;
+    text-align:center;
+}

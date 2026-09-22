@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>table tags</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+           * {
+               color: #863ec9;
+            }
+        </style>
+        </head>
+    <body>
+        <h1>Table Tags</h1>
+        <a href="./index.html">first page</a><br>
+        <a href="./new/third.html">Third page</a><br>
+        <img src="./nature2.jpg" width="100%" height="300">
+
+<form name="registration" method="post" action="./new/third.html">
+
+        
+
+<input type="text" name="first name" id="first name" placeholder="FIRST NAME">
+<input type="password" name="password" id="password" placeholder="PASS WORLD">
+<input type="button" name="submit" value="submit">
+<button type="button" name="submit">SUBMIT</button>
+<button type="submit" name="submit">SUBMIT</button>
+<br>
+<input type="number" name="mobile" id="mobile" placeholder="Mobile"><br>
+
+<label>preferred location : </label>
+<label>hyderabad :</label>
+<input type="checkbox" name="hyd" id="hyd" value="hyderabad">
+
+<label>chennai :</label>
+<input type="checkbox" name="chennai" id="chennai" value="chennai">
+
+<label>bengaluru :</label>
+<input type="checkbox" name="blr" id="blr" value="bengaluru"><br>
+
+<label>gender : </label>
+<label>male :</label>
+<input type="radio" name="gender" id="male" value="male">
+
+<label>female :</label>
+<input type="radio" name="gender" id="female" value="female">
+
+<label>trans :</label>
+<input type="radio" name="gender" id="trans" value="trans"><br>
+<input type="file" name="resume" id="resume"><br>
+<input type="date" name="DOB" id="DOB">
+<input type="datetime" name="login" id="login"><br>
+<input type="email" name="email" id="email" placeholder="E-MAIL"><br>
+<input type="datetime-local" name="login" id="login"><br>
+<input type="image" name="pass photo" id="pass photo" placeholder="pass-photo"><br>
+<input type="month" name="month" id="month"><br>
+<input type="color" name="colour" id="colour"><br>
+<input type="hidden" name="hidden" id="hidden">
+
+    </form>
+
+        <pre>
+    class main{
+        public static void main (String[]args){
+            int a=10;
+            int b=20;
+            int c=a+b;
+            if(a &lt; b)
+            System.out.println(a);
+            else system.out,println(b)';'
+            &amp// ampercent
+            //so in html pre tag is used to show as it is what we 
+            write inside of it including spaces
+
+        }
+    }
+ </pre>
+ <caption>Table 1.1 student details</caption>
+ <table border="1">
+    <thead>
+        <tr>
+            <th>st_id</th>
+            <th colspan=2>full_name</th>
+            <th>course</th>
+            <th>st_marks</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>archana</td>
+            <td>B</td>
+            <td>JFS</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>sivaji</td>
+            <td>C</td>
+            <td>PFS</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>prasad</td>
+            <td>M</td>
+            <td>JFS</td>
+            <td>78</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>prasanna</td>
+            <td>M</td>
+            <td>AWS</td>
+            <td>78</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>rohit</td>
+            <td>M</td>
+            <td>DEVOPS</td>
+            <td>78</td>
+        </tr>
+    </tbody>
+
+ </table>
+ <table border="1">
+    <thead>
+        <tr>
+            <th>name</th>
+            <th>skill</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="3">john</td>
+            <td> java</td>
+            <td>2 years</td>
+            <td>IT</td>
+        </tr>
+        <tr>
+            <td>springboot</td>
+            <td>1 year</td>
+            <td></td>
+            
+        </tr>
+        <tr>
+            
+            <td>kafka</td>
+            <td></td>
+            <td></td>
+            
+        </tr>
+        
+    </tbody>
+
+ </table>
+ <caption>Table 1.1 time table</caption>
+ <table border="1">
+    <thead>
+        <tr>
+            <th>period</th>
+            <th>I</th>
+            <th>II</th>
+            <th>III</th>
+            <th>LUNCH</th>
+            <th>IV</th>
+            <th>V</th>
+            <th>VI</th>
+        </tr>
+
+
+    </thead>
+    <tbody>
+        <tr>
+            <td>mon</td>
+            <td>tel</td>
+            <td>eng</td>
+            <td>hindi</td>
+            <td rowspan="6"></td>
+            <td>maths</td>
+            <td>science</td>
+            <td>social</td>
+
+        </tr>
+        <tr>
+            <td>tue</td>
+            <td colspan="3">comp lab</td>
+            
+            <td>hindi</td>
+            <td>maths</td>
+            <td>science</td>
+
+            
+        </tr>
+        <tr>
+            <td>wed</td>
+            <td>tel</td>
+            <td>eng</td>
+            <td>hindi</td>
+            
+            <td colspan="3">eng lab</td>
+            
+        </tr>
+        <tr>
+            <td>thu</td>
+            <td>tel</td>
+            <td>eng</td>
+            <td>hindi</td>
+            
+            <td>maths</td>
+            <td>science</td>
+            <td>social</td>
+            
+        </tr>
+        <tr>
+            <td>fri</td>
+            <td>tel</td>
+            <td>eng</td>
+            <td>hindi</td>
+            
+            <td>maths</td>
+            <td>science</td>
+            <td>social</td>
+            
+        </tr>
+        <tr>
+            <td>sat</td>
+            <td>tel</td>
+            <td>eng</td>
+            <td>hindi</td>
+            
+            <td>maths</td>
+            <td colspan="2">sports</td>
+           
+            
+        </tr>
+        
+
+    </tbody>
+
+ </table>
+
+    </body>
+</html>
