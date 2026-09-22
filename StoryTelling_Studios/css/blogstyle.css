@@ -1,0 +1,39 @@
+.blog-section{
+    background:#faf7f2;
+}
+
+.blog-card{
+
+    overflow:hidden;
+    border:none;
+    border-radius:12px;
+    transition:.4s;
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+
+}
+
+.blog-card img{
+
+    height:250px;
+    object-fit:cover;
+}
+
+.blog-card:hover{
+
+    transform:translateY(-12px) scale(1.03);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.25);
+
+}
+
+.blog-card .btn{
+
+    transition:.3s;
+}
+
+.blog-card:hover .btn{
+
+    background:#000;
+    color:#fff;
+
+}

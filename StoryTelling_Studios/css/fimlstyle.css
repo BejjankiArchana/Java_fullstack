@@ -1,0 +1,25 @@
+.films-section{
+    padding:100px 0;
+    background:#faf7f2;
+}
+
+.films-section h2{
+    font-size:42px;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.films-section p{
+    color:#666;
+    line-height:1.9;
+}
+
+.films-section video{
+    border-radius:15px;
+    transition:.4s;
+}
+
+.films-section video:hover{
+    transform:scale(1.02);
+    box-shadow:0 20px 40px rgba(0,0,0,.25);
+}
